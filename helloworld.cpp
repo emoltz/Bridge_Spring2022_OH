@@ -2,6 +2,9 @@
 using namespace std;
 
 int main(){
-    cout << "Hello World";
+    double x = 5.9;
+    int i = (int)x;
+    cout << i;
+
     return 0;
 }
