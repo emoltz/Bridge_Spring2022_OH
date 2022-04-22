@@ -1,5 +1,3 @@
 # ninja log v5
-0	243	1650633511819581090	CMakeFiles/vscode_cpp.dir/helloworld.cpp.o	323c90b94a4aecaa
-244	279	1650633511857324049	vscode_cpp	8851c8d3d6a14d6
-2	272	1650634137648926143	CMakeFiles/vscode_cpp.dir/helloworld.cpp.o	323c90b94a4aecaa
-272	311	1650634137689403086	vscode_cpp	8851c8d3d6a14d6
+3	301	1650655277588321582	CMakeFiles/vscode_cpp.dir/helloworld.cpp.o	323c90b94a4aecaa
+301	338	1650655277627761041	vscode_cpp	8851c8d3d6a14d6
