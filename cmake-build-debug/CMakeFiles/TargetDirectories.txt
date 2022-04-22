@@ -1,3 +1,4 @@
 /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug/CMakeFiles/vscode_cpp.dir
+/Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug/CMakeFiles/test.dir
 /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
