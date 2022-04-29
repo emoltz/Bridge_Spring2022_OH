@@ -1,6 +1,6 @@
 # Spring 2022 17 Week Bridge Program
 ## Reference Files from Office Hours
-This includes files to work in VSCode and Clion
+*This includes files to work in VSCode and Clion*
 - Hello World
     - This is the most basic program you can run in C++
 
