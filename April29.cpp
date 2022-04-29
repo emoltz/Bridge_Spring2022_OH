@@ -29,11 +29,12 @@ int multiplyByFive_withReturn(int x, bool &awesomeness){
 int main(){
     
     int i = 10;
-    bool Ethan = false;
+    bool Ethan = true;
 
     int result = multiplyByFive_withReturn(i, Ethan);
     cout << result << endl;
-    
+    cout << "in this example, i is still " << i << endl;
+
     cout << "Ethan is awesome? ";
     if (Ethan == true){
         cout << "Yes!";
