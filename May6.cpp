@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 void example1(){
@@ -41,8 +42,7 @@ void whatWillItPrint(){
     cout << *pointer;
 }
 
-int main(){
-
+void doublePointer(){
     int var = 10;
     int *pointer = &var;
     *pointer = 20;
@@ -51,6 +51,21 @@ int main(){
     **pointer2 = 30;
 
     cout << var;
+}
+
+void vectors(){
+    //remember what it is doing on the backend! this is not a magic datatype
+    vector<int> v = {1, 2, 3, 4, 5};
+    v.push_back(10);
+
+    for(int i = 0; i < v.size(); i++){
+        cout << v[i] << " ";
+    }
+}
+
+int main(){
+
+    vectors();
 
 
     return 0;
