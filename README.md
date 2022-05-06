@@ -6,3 +6,8 @@
 
 ### April 29
     - We go over pass my reference, pass by value with a few examples
+
+### May 6
+    - Vectors, 
+    - arrays
+    - pointers
