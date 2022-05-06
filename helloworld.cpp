@@ -13,6 +13,8 @@ int main(){
         if (end == false){
             cout << "Hello!";
         }
+
+        cin >
     }
 
     return 0;

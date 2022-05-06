@@ -102,6 +102,37 @@ build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.o
   TARGET_FILE = test
   TARGET_PDB = test.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target May6
+
+
+#############################################
+# Order-only phony target for May6
+
+build cmake_object_order_depends_target_May6: phony || CMakeFiles/May6.dir
+
+build CMakeFiles/May6.dir/May6.cpp.o: CXX_COMPILER__May6_Debug /Users/ethanshafranmoltz/Documents/NYU/Bridge$ 2022/Spring$ 17$ Week/Code/vscode_cpp/May6.cpp || cmake_object_order_depends_target_May6
+  DEP_FILE = CMakeFiles/May6.dir/May6.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/May6.dir
+  OBJECT_FILE_DIR = CMakeFiles/May6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target May6
+
+
+#############################################
+# Link the executable May6
+
+build May6: CXX_EXECUTABLE_LINKER__May6_Debug CMakeFiles/May6.dir/May6.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/May6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = May6
+  TARGET_PDB = May6.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -136,7 +167,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug
 
-build all: phony vscode_cpp test
+build all: phony vscode_cpp test May6
 
 # =============================================================================
 # Built-in targets

@@ -7,3 +7,4 @@ add_executable(vscode_cpp
         helloworld.cpp)
 
 add_executable(test test.cpp)
+add_executable(May6 May6.cpp)
