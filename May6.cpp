@@ -4,9 +4,9 @@ using namespace std;
 void example1(){
     int var = 8;
     int *pointer = &var;
-//
-//    cout << *pointer << endl;
-//    cout << var;
+
+    cout << *pointer << endl;
+    cout << var;
 
     cout << "_______" <<endl;
 
@@ -31,9 +31,26 @@ void example2(){
     delete[] array;
 }
 
+void whatWillItPrint(){
+    //what will print?
+    int var = 10;
+    int *pointer = &var;
+    *pointer = 20;
+    var = 15;
+
+    cout << *pointer;
+}
 
 int main(){
 
+    int var = 10;
+    int *pointer = &var;
+    *pointer = 20;
+
+    int **pointer2 = &pointer;
+    **pointer2 = 30;
+
+    cout << var;
 
 
     return 0;
