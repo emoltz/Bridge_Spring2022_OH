@@ -55,8 +55,8 @@ void dynamicArrays(){
 
 }
 
-int main(){
-   int *arr = new int[6];
+void doublePointers(){
+       int *arr = new int[6];
    for (int i = 0; i < 6; i++){
        arr[i] = i;
    }
@@ -70,6 +70,23 @@ int main(){
 //    for (int i = 0; i < 6; i++){
 //        cout << arr[i] << " ";
 //    }
+}
+
+void runtime1(int array[], int size){
+    //O(n^2)
+    for (int i = 0; i < size; i++){
+        for (int j = 0; j < size; j++){
+            cout << "Hello";
+        }
+    }
+
+    for (int i = size; i > 0; i /= 2){
+        cout << "logarithmic!";
+    }
+}
+
+int main(){
+
 
 
     return 0;
