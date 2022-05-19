@@ -25,6 +25,15 @@ void pointers(){
     cout << *pointer;
 }
 
+void doublePointers(){
+    int var = 10;
+    int *pointer = &var;
+    *pointer = 20;
+
+    int **pointer2 = &pointer;
+    **pointer2 = 30;
+}
+
 void dynamicArrays(){
 
     int *array = nullptr;
@@ -47,10 +56,7 @@ void dynamicArrays(){
 }
 
 int main(){
-    // dynamicArrays();
-
-    int array[5] = {1, 2, 3, 4, 5};
-    cout << array;
+   
 
     return 0;
 
