@@ -9,6 +9,7 @@ const int size = 5;
 
 int findOccurences(int *array, int size, int x){
     //base case -> if the array is nothing, then return 0
+    // CHALLENGE! -> Change the base case to 1 and modify the code
     if (size == 0){
         return 0;
     }
@@ -30,12 +31,14 @@ int main(){
     int array[size] = {1, 2, 2, 3, 5};
     int *iterator = array;
 
-    cout << findOccurences(iterator, size, 2);
-
     cout << "Addresses: " << endl;
     cout << array;
     cout << endl;
     cout << &array[0];
+
+    cout << findOccurences(iterator, size, 2) << endl;
+
+    
 
     return 0;
 }
