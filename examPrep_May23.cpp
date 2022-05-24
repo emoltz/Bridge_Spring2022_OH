@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 //find occurences of a number in an array
@@ -22,12 +23,19 @@ int findOccurences(int *array, int size, int x){
     }
 }
 
-
-
+//another way to do it
+int findOccurences(int *array, int size, int start, int end, int x);
 
 int main(){
     int array[size] = {1, 2, 2, 3, 5};
-    cout << findOccurences(array, size, 2);
+    int *iterator = array;
 
+    cout << findOccurences(iterator, size, 2);
 
+    cout << "Addresses: " << endl;
+    cout << array;
+    cout << endl;
+    cout << &array[0];
+
+    return 0;
 }
