@@ -16,3 +16,7 @@
     - Pointers
     - Pass by Reference
     - Runtime questions
+
+### May 23 - Exam Prep
+    - Recursive Functions
+    - Using pointers
