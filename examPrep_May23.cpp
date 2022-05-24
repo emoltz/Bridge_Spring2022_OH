@@ -9,7 +9,7 @@ const int size = 5;
 
 int findOccurences(int *array, int size, int x){
     //base case -> if the array is nothing, then return 0
-    // CHALLENGE! -> Change the base case to 1 and modify the code
+    // CHALLENGE! -> Change the base case to size == 1 and modify the code
     if (size == 0){
         return 0;
     }
