@@ -20,5 +20,3 @@
 ### May 23 - Exam Prep
     - Recursive Functions
     - Using pointers
-
-hello!
