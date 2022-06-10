@@ -20,3 +20,4 @@ class Ant : public Organism{
 public:
     Ant(Area* world, int x, int y);
 };
+
