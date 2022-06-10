@@ -20,6 +20,16 @@ public:
         head = nullptr;
         tail = nullptr;
     }
+    
+    ~LinkedList(){
+        Node* temp = head;
+        while(temp != nullptr){
+            Node* next = temp->next;
+            delete temp;
+            temp = next;
+        }
+        head = nullptr;
+    }
 
     void addNode(int n){ //O(1)
         //create a new node
