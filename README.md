@@ -20,3 +20,7 @@
 ### May 23 - Exam Prep
     - Recursive Functions
     - Using pointers
+
+## June 10 
+    - Linked Lists
+    - Destructors

@@ -21,3 +21,7 @@ public:
     Ant(Area* world, int x, int y);
 };
 
+class Doodlebug: public Organism{
+    
+};
+
