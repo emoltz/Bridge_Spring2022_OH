@@ -62,12 +62,25 @@ public:
         Node* temp = head;
         while(temp != nullptr){
             if(temp->data == x){
-                //CHALLENGE! How to remove the node?
+                //CHALLENGE! How to remove the node? Hint: use the pointers!
             }
-            
+
             temp = temp->next;
         }
 
+    }
+
+    bool search(int x){
+        Node* temp = head;
+        while(temp != nullptr){
+            if (temp->data == x){
+                return true;
+            }
+            else{
+                temp = temp->next;
+            }
+        }
+        return false;
     }
 
     void display(){
@@ -79,8 +92,6 @@ public:
             i++;
         }
     }
-
-    
 };
 
 
@@ -90,8 +101,6 @@ int main(){
     l.addNode(10);
     l.addNode(110);
     l.display();
-    
-    
     
     return 0;
 }
