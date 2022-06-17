@@ -39,7 +39,7 @@ void doubleTriangle(int n){
     }
 
 }
-
+//CHALLENGE: make a filled in diamond of stars
 int main(){
 
     doubleTriangle(5);
