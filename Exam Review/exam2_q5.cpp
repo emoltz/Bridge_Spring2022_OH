@@ -1,7 +1,5 @@
 #include <iostream>
-#include <vector>
 using namespace std;
-
 
 bool isSorted(int s[], int length){
     //base case
@@ -23,7 +21,12 @@ bool isSorted(int s[], int length){
 }
 
 int main(){
-    int arr[5] = {60, 50, 30, 10, 20};
-    cout << boolalpha << isSorted(arr, 5);
+    int arr[5] = {60, 50, 30, 20, 10};
+    if (isSorted(arr, 5)){
+        cout << "true";
+    }
+    else{
+        cout << "false";
+    }
     return 0;
 }
