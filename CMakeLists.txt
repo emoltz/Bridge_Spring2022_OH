@@ -8,3 +8,4 @@ add_executable(vscode_cpp
 
 add_executable(test test.cpp)
 add_executable(May6 May6.cpp)
+add_executable(practiceExam3 "Exam Review/practiceExam3.cpp")
