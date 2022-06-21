@@ -193,6 +193,21 @@ class Solution:
  */
 
 
+
+class BST{
+
+};
+class BSTNode{
+public:
+    int data;
+    BST* left;
+    BST* right;
+    BST* parent;
+    /* Challenge Question:
+        *  Make a recursive function that confirms the tree is a correct BST
+    */
+};
+
 int main(){
     q8();
     return 0;
