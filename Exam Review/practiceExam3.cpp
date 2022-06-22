@@ -90,11 +90,10 @@ struct ListNode{
 ListNode* reverse_linked_list(ListNode* head){
     ListNode* prev = nullptr;
     ListNode* curr = head;
-    ListNode* next;
 
-    while(curr->next != nullptr){
-        //Draw a picture!
-        next = curr->next;
+    //works better with a picture
+    while(curr != nullptr){
+        ListNode* next = curr->next;
         curr->next = prev;
         prev = curr;
         curr = next;
