@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vscode_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "May6::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-May6-Debug-f605b84ed62dd7120457.json",
+					"name" : "May6",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exam4_coding::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exam4_coding-Debug-5b5c6b52189249937df7.json",
+					"name" : "exam4_coding",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "practiceExam3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-practiceExam3-Debug-f2d62bb2d388d23b7f4e.json",
+					"name" : "practiceExam3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-eeec2c9af9314f5ca419.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vscode_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vscode_cpp-Debug-0b3b98d622ce5404f780.json",
+					"name" : "vscode_cpp",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug",
+		"source" : "/Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
