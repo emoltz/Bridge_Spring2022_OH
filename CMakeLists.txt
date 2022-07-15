@@ -9,3 +9,4 @@ add_executable(vscode_cpp
 add_executable(test exampleArchive/test.cpp)
 add_executable(May6 exampleArchive/May6.cpp)
 add_executable(practiceExam3 "Exam Review/practiceExam3.cpp")
+add_executable(exam4_coding "Exam Review/exam4_coding.cpp")

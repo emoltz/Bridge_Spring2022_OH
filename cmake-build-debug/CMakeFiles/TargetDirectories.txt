@@ -2,5 +2,6 @@
 /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug/CMakeFiles/test.dir
 /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug/CMakeFiles/May6.dir
 /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug/CMakeFiles/practiceExam3.dir
+/Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug/CMakeFiles/exam4_coding.dir
 /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

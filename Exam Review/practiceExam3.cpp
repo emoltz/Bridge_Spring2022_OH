@@ -69,7 +69,8 @@ public:
 
 void q8(){
     A a(1, 2);
-    A b = a;
+//    A b = a;
+    A c(a);
     //CHALLENGE: try changing values for a and b and then print the result. Then do the same without the copy constructor.
 }
 

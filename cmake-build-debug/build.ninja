@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_vscode_cpp: phony || CMakeFiles/vscode_c
 
 build CMakeFiles/vscode_cpp.dir/exampleArchive/helloworld.cpp.o: CXX_COMPILER__vscode_cpp_Debug /Users/ethanshafranmoltz/Documents/NYU/Bridge$ 2022/Spring$ 17$ Week/Code/vscode_cpp/exampleArchive/helloworld.cpp || cmake_object_order_depends_target_vscode_cpp
   DEP_FILE = CMakeFiles/vscode_cpp.dir/exampleArchive/helloworld.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/vscode_cpp.dir
   OBJECT_FILE_DIR = CMakeFiles/vscode_cpp.dir/exampleArchive
 
@@ -64,7 +64,7 @@ build CMakeFiles/vscode_cpp.dir/exampleArchive/helloworld.cpp.o: CXX_COMPILER__v
 # Link the executable vscode_cpp
 
 build vscode_cpp: CXX_EXECUTABLE_LINKER__vscode_cpp_Debug CMakeFiles/vscode_cpp.dir/exampleArchive/helloworld.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/vscode_cpp.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -82,7 +82,7 @@ build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
 
 build CMakeFiles/test.dir/exampleArchive/test.cpp.o: CXX_COMPILER__test_Debug /Users/ethanshafranmoltz/Documents/NYU/Bridge$ 2022/Spring$ 17$ Week/Code/vscode_cpp/exampleArchive/test.cpp || cmake_object_order_depends_target_test
   DEP_FILE = CMakeFiles/test.dir/exampleArchive/test.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/exampleArchive
 
@@ -95,7 +95,7 @@ build CMakeFiles/test.dir/exampleArchive/test.cpp.o: CXX_COMPILER__test_Debug /U
 # Link the executable test
 
 build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/exampleArchive/test.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/test.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -113,7 +113,7 @@ build cmake_object_order_depends_target_May6: phony || CMakeFiles/May6.dir
 
 build CMakeFiles/May6.dir/exampleArchive/May6.cpp.o: CXX_COMPILER__May6_Debug /Users/ethanshafranmoltz/Documents/NYU/Bridge$ 2022/Spring$ 17$ Week/Code/vscode_cpp/exampleArchive/May6.cpp || cmake_object_order_depends_target_May6
   DEP_FILE = CMakeFiles/May6.dir/exampleArchive/May6.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/May6.dir
   OBJECT_FILE_DIR = CMakeFiles/May6.dir/exampleArchive
 
@@ -126,7 +126,7 @@ build CMakeFiles/May6.dir/exampleArchive/May6.cpp.o: CXX_COMPILER__May6_Debug /U
 # Link the executable May6
 
 build May6: CXX_EXECUTABLE_LINKER__May6_Debug CMakeFiles/May6.dir/exampleArchive/May6.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/May6.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -144,7 +144,7 @@ build cmake_object_order_depends_target_practiceExam3: phony || CMakeFiles/pract
 
 build CMakeFiles/practiceExam3.dir/Exam_Review/practiceExam3.cpp.o: CXX_COMPILER__practiceExam3_Debug /Users/ethanshafranmoltz/Documents/NYU/Bridge$ 2022/Spring$ 17$ Week/Code/vscode_cpp/Exam$ Review/practiceExam3.cpp || cmake_object_order_depends_target_practiceExam3
   DEP_FILE = CMakeFiles/practiceExam3.dir/Exam_Review/practiceExam3.cpp.o.d
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
   OBJECT_DIR = CMakeFiles/practiceExam3.dir
   OBJECT_FILE_DIR = CMakeFiles/practiceExam3.dir/Exam_Review
 
@@ -157,12 +157,43 @@ build CMakeFiles/practiceExam3.dir/Exam_Review/practiceExam3.cpp.o: CXX_COMPILER
 # Link the executable practiceExam3
 
 build practiceExam3: CXX_EXECUTABLE_LINKER__practiceExam3_Debug CMakeFiles/practiceExam3.dir/Exam_Review/practiceExam3.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/practiceExam3.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = practiceExam3
   TARGET_PDB = practiceExam3.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exam4_coding
+
+
+#############################################
+# Order-only phony target for exam4_coding
+
+build cmake_object_order_depends_target_exam4_coding: phony || CMakeFiles/exam4_coding.dir
+
+build CMakeFiles/exam4_coding.dir/Exam_Review/exam4_coding.cpp.o: CXX_COMPILER__exam4_coding_Debug /Users/ethanshafranmoltz/Documents/NYU/Bridge$ 2022/Spring$ 17$ Week/Code/vscode_cpp/Exam$ Review/exam4_coding.cpp || cmake_object_order_depends_target_exam4_coding
+  DEP_FILE = CMakeFiles/exam4_coding.dir/Exam_Review/exam4_coding.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/exam4_coding.dir
+  OBJECT_FILE_DIR = CMakeFiles/exam4_coding.dir/Exam_Review
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exam4_coding
+
+
+#############################################
+# Link the executable exam4_coding
+
+build exam4_coding: CXX_EXECUTABLE_LINKER__exam4_coding_Debug CMakeFiles/exam4_coding.dir/Exam_Review/exam4_coding.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/exam4_coding.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exam4_coding
+  TARGET_PDB = exam4_coding.dbg
 
 
 #############################################
@@ -198,7 +229,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/ethanshafranmoltz/Documents/NYU/Bridge 2022/Spring 17 Week/Code/vscode_cpp/cmake-build-debug
 
-build all: phony vscode_cpp test May6 practiceExam3
+build all: phony vscode_cpp test May6 practiceExam3 exam4_coding
 
 # =============================================================================
 # Built-in targets
